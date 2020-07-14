@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Danny Park's website</title>
+    <link rel="stylesheet" type="text/css" href="static/css/mystyle.css">
+
+  </head>
+
+  <body class="comicsans">
+<!--
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+-->
+  <script src="static/js/scripts.js"></script>
+
+  <script>
+    var myArticles = {{ articles|tojson }};
+    var articlesObject = {objectArray: myArticles, objectElementId: "journal_articles", objectCounter: 0, objectMoreButton: "articles_more", objectLessButton: "articles_less", objectShowing: "articles_showing", objectHeading: "articles_heading", objectHeadingText: "Journal Articles"};
+    var myChapters = {{ chapters|tojson }};
+    var chaptersObject = {objectArray: myChapters, objectElementId: "book_chapters", objectCounter: 0, objectShowHide: "chapters_toggle", objectHeading: "chapters_heading", objectHeadingText: "Book Chapters"};
+    var myBooks = {{ books|tojson }};
+    var booksObject = {objectArray: myBooks, objectElementId: "books", objectCounter: 0, objectShowHide: "books_toggle", objectHeading: "books_heading", objectHeadingText: "Books"};
+    var myPatents = {{ patents|tojson }};
+    var patentsObject = {objectArray: myPatents, objectElementId: "patents", objectCounter: 0, objectMoreButton: "patents_more", objectLessButton: "patents_less", objectShowing: "patents_showing", objectHeading: "patents_heading", objectHeadingText: "Patents"};
+    var myConferences = {{ conferences|tojson }};
+    var conferencesObject = {objectArray: myConferences, objectElementId: "conferences", objectCounter: 0, objectShowHide: "conferences_toggle", objectHeading: "conferences_heading", objectHeadingText: "Conferences"};
+    var myPhdStudents = {{ phd_students|tojson }};
+    var phdStudentsObject = {objectArray: myPhdStudents, objectElementId: "phd_students", objectCounter: 0, objectShowHide: "phds_toggle", objectHeading: "phds_heading", objectHeadingText: "PhD Students"};
+    var myMastersStudents = {{ masters_students|tojson }};
+    var mastersStudentsObject = {objectArray: myMastersStudents, objectElementId: "masters_students", objectCounter: 0, objectShowHide: "masters_toggle", objectHeading: "masters_heading", objectHeadingText: "Masters Students"};
+    var myHonoursStudents = {{ honours_students|tojson }};
+    var honoursStudentsObject = {objectArray: myHonoursStudents, objectElementId: "honours_students", objectCounter: 0, objectShowHide: "honours_toggle", objectHeading: "honours_heading", objectHeadingText: "Honours Students"};
+  </script>
+
+
+    <h2>Associate Professor Danny Park - Molecular Biologist and Bioinformatician</h2>
+    <h3>Academic Lead, Melbourne Bioinformatics</h3>
+    <h3>Course Coordinator, MSc(Bioinformatics)</h3>
+
+    <img class="centred-and-cropped" width="200"  height="200" src="static/img/djp_portrait_cropped.jpg" style="float:left;padding:10px"/>
+    <p>I studied Natural Sciences at The University of Cambridge from 1992-1995, before completing my PhD in the Department of Biochemistry. Since then, I have worked across a wide range of molecular biology and bioinformatics projects.</p>
+    <p> Early in my career, while working to characterise some Australian marsupial genes, I developed a suite of methods for the determination of nucleic acid sequences flanking known regions - these allowed the resolution of RNA and DNA sequences that had proven intractible to prior approaches.</p>
+    <br clear="left" />
+
+
+    <h3>Publications</h3>
+
+    <h4 id="articles_heading" style="display:inline-block">Journal Articles</h4>
+    <button id="articles_less" style="display:none" class="btn" onclick="clickLess(articlesObject)">Less</button>
+    <button id="articles_more" style="display:inline-block" class="btn" onclick="clickMore(articlesObject)">More</button>
+    <div id="articles_showing" style="display:inline-block" class="comicsans"></div>
+    <div id="journal_articles" style="display:none"></div>
+    <br>
+<!--
+    <script type="text/javascript">initLoad(articlesObject);</script>
+-->
+
+    <h4 id="chapters_heading" style="display:inline-block">Book Chapters</h4>
+    <button id="chapters_toggle" style="display:inline-block" class="btn" onclick="toggle(chaptersObject)">Expand</button>
+    <div id="book_chapters" style="display:none" ></div>
+    <br>
+
+    <h4 id="books_heading" style="display:inline-block">Books</h4>
+    <button id="books_toggle" style="display:inline-block" class="btn" onclick="toggle(booksObject)">Expand</button>
+    <div id="books" style="display:none" ></div>
+    <br>
+
+    <h4 id="patents_heading" style="display:inline-block">Patents</h4>
+    <button id="patents_less" style="display:none" class="btn" onclick="clickLess(patentsObject)">Less</button>
+    <button id="patents_more" style="display:inline-block" class="btn" onclick="clickMore(patentsObject)">More</button>
+    <div id="patents_showing" style="display:inline-block" class="comicsans"></div>
+    <div id="patents" style="display:none"></div>
+    <br>
+<!--
+    <h4 id="conferences_heading" style="display:inline;">Conferences</h4>
+    <button id="conferences_toggle" style="display:inline-block" class="comicsans" onclick="toggle(conferencesObject)">Expand</button>
+    <div id="conferences" style="display:none" ></div>
+-->
+    <h4 id="conferences_heading" style="display:inline-block">Conferences</h4>
+    <button id="conferences_toggle" style="display:inline-block" class="btn" onclick="toggle(conferencesObject)">Expand</button>
+    <div id="conferences" style="display:none" ></div>
+    <br>
+
+    <h3>Students</h3>
+
+    <h4 id="phds_heading" style="display:inline-block">PhD Students</h4>
+    <button id="phds_toggle" style="display:inline-block" class="btn" onclick="toggle(phdStudentsObject)">Expand</button>
+    <div id="phd_students" style="display:none" ></div>
+    <br>
+
+    <h4 id="masters_heading" style="display:inline-block">Masters Students</h4>
+    <button id="masters_toggle" style="display:inline-block" class="btn" onclick="toggle(mastersStudentsObject)">Expand</button>
+    <div id="masters_students" style="display:none" ></div>
+    <br>
+
+    <h4 id="honours_heading" style="display:inline-block">Honours Students</h4>
+    <button id="honours_toggle" style="display:inline-block" class="btn" onclick="toggle(honoursStudentsObject)">Expand</button>
+    <div id="honours_students" style="display:none" ></div>
+
+  </body>
+</html>
