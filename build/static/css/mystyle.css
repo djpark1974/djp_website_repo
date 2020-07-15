@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+body { background-color: lightblue; padding: 10px;}
+
+h2 {color:navy; font-size: 20px; margin-left: 20px;}
+
+h3 {color:navy; font-size: 18px; margin-left: 20px;}
+
+h4 {color:black; font-size: 16px; margin-left: 20px; margin-top: 2px; margin-bottom: 2px;}
+
+p {color:black; font-size: 14px; margin-left: 20px;}
+
+
+/*button {color:black; font-size:14px; margin-left: 20px; text-decoration: none; background-color: white;}*/
+button.btn{
+    color:black;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size:12px;
+    font-weight: bold;
+    margin: 10px 20px 10px;     /* top, left and right, bottom */
+    padding: 5px;
+    text-transform: uppercase;
+/*    text-decoration: none;*/
+    background: white;
+    cursor: pointer;
+/*    transition: all 0.2s;*/
+}
+
+button.btn:hover{background: grey; transition: all 0.2s;}
+/*
+button.btn{
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: inline-block;
+  margin: 10px 10px;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+button.btn:hover{
+  background-color: white;
+  color: black;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+*/
+li {color:black; font-size:12px; margin-left: 20px;}
+
+.comicsans {font-family: "Comic Sans MS", cursive, sans-serif;}
+
+.centred-and-cropped {object-fit: cover}
