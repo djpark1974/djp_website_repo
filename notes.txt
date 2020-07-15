@@ -4,20 +4,11 @@ python3 -m venv flaskenv
 pip3 install Flask
 pip3 install Frozen-Flask
 pip3 install Flask-FlatPages
-vim catseverywhere.py
 
-"""
-#!/usr/bin/env python
-from flask import Flask
-app = Flask(__name__)
+python djp_web_server.py build      # make a static build folder
+GitHub Pages
+djpark1974.github.io        # repo name to make https://djpark1974.github.io - must be public
+include index.html and static files
+in repo, under settings, select Github Pages to be used
 
-@app.route('/')
-def hello_world():
-    return 'Hello World!'
-
-if __name__ == '__main__':
-    app.run()
-"""
-
-mkdir static
 
