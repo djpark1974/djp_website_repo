@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-body { background-color: lightblue; padding: 10px;}
+body { background-color: lightcyan; padding: 10px;}
 
 h2 {color:navy; font-size: 20px; margin-left: 20px;}
 
@@ -14,7 +14,8 @@ p {color:black; font-size: 14px; margin-left: 20px;}
 /*button {color:black; font-size:14px; margin-left: 20px; text-decoration: none; background-color: white;}*/
 button.btn{
     color:black;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+/*    font-family: "Comic Sans MS", cursive, sans-serif; */
+    font-family: arial, verdana, sans-serif, trebuchet-ms;
     font-size:12px;
     font-weight: bold;
     margin: 10px 20px 10px;     /* top, left and right, bottom */
@@ -54,6 +55,6 @@ button.btn:hover{
 */
 li {color:black; font-size:12px; margin-left: 20px;}
 
-.comicsans {font-family: "Comic Sans MS", cursive, sans-serif;}
+.sans-serif {font-family: arial, verdana, sans-serif, trebuchet-ms;}
 
 .centred-and-cropped {object-fit: cover}
