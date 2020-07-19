@@ -1,14 +1,17 @@
 @charset "utf-8";
 
-body { background-color: lightcyan; padding: 10px;}
+/*body { background-color: lightsteelblue; padding: 10px;}*/
+/*body { background-color: rgb(176, 196, 222); padding: 10px;}*/
+/*body { background-color: rgb(176, 196, 300); padding: 10px;}*/
+body { background-color: lavender; padding: 10px;}
 
 h2 {color:navy; font-size: 20px; margin-left: 20px;}
 
-h3 {color:navy; font-size: 18px; margin-left: 20px;}
+/*h3 {color:midnightblue; font-size: 18px; margin-left: 20px; letter-spacing: 4px; text-transform: uppercase; text-shadow: 3px 3px 3px grey;}*/
+h3 {color:rebeccapurple; font-size: 18px; margin-left: 20px; letter-spacing: 4px; text-transform: uppercase; text-shadow: 3px 3px 3px grey;}
 
-h4 {color:black; font-size: 16px; margin-left: 20px; margin-top: 2px; margin-bottom: 2px;}
-
-p {color:black; font-size: 14px; margin-left: 20px;}
+/*h4 {color:black; font-size: 14px; margin-left: 20px; letter-spacing: 2px; text-transform: uppercase; text-shadow: 2px 2px 2px grey;}*/
+h4 {color:black; font-size: 14px; margin-left: 20px; letter-spacing: 2px; text-transform: uppercase;}
 
 
 /*button {color:black; font-size:14px; margin-left: 20px; text-decoration: none; background-color: white;}*/
@@ -28,33 +31,74 @@ button.btn{
 }
 
 button.btn:hover{background: grey; transition: all 0.2s;}
-/*
-button.btn{
-  background: transparent;
-  color: white;
-  border: 2px solid white;
-  font-size: 16px;
-  letter-spacing: 1px;
-  padding: 5px 10px;
-  text-transform: uppercase;
-  cursor: pointer;
-  display: inline-block;
-  margin: 10px 10px;
-  -webkit-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  transition: all 0.4s;
-}
 
-button.btn:hover{
-  background-color: white;
-  color: black;
-  -webkit-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  transition: all 0.4s;
-}
-*/
 li {color:black; font-size:12px; margin-left: 20px;}
 
 .sans-serif {font-family: arial, verdana, sans-serif, trebuchet-ms;}
 
 .centred-and-cropped {object-fit: cover}
+
+ /* Container holding the image and the text */
+.banner-container {
+  position: relative;
+  text-align: center;
+  background-color: white;
+  height: 150px;
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 20px;
+  z-index: -1;
+}
+
+
+/* Top right text */
+.tbanner-top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  color: black;
+}
+
+/* Bottom right text */
+.banner-bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  color: black;
+}
+
+/* Centered text */
+.banner-centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  letter-spacing: 4px;
+  line-height: 1.4em;
+  width: 90%;
+} 
+
+
+.banner-image{
+    position: absolute;
+    left: 20px;
+    height: 150px;
+    width: auto;
+}
+
+
+.container-text {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 20px;
+  text-align: left;
+  padding: 20px;
+  color: black;
+  font-size: 10pt;
+  line-height: 1.3em;
+} 
