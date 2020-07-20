@@ -1,9 +1,2 @@
-Student number 1
-Student number 2 and degree with status
-Student number 3
-and 4
-and 5
-and more...
-here is a new one
-I'm now adding this
-Fred Bloggs finished his Masters degree
+Joyce Teo - supervisor - completed
+Adel Barakat - degree committee - completed

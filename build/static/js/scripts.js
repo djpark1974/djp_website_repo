@@ -26,12 +26,12 @@ function toggle(x) {
 
 function arrayToHTML(myArray){
     var htmlString = "";
-    htmlString += "<ol>";
+    htmlString += "<ul>";
     for (i = 0; i < myArray.length; i++) {
         new_content = myArray[i];
         htmlString += "<li>" + new_content + "</li>";
     }
-    htmlString += "</ol>";
+    htmlString += "</ul>";
     return htmlString;
 }
 
@@ -44,9 +44,9 @@ function initLoad(x) {
     var xLess = x.objectLessButton;
     var htmlShowing = document.getElementById(x.objectShowing);
     var htmlElement = document.getElementById(xElementId);
-    var seedList = xArray.slice(0, 10);
+    var seedList = xArray.slice(0, xCounter);
     htmlElement.innerHTML = arrayToHTML(seedList);
-    htmlShowing.innerHTML = "Showing 1 to 10 of " + xArray.length + "...";
+    htmlShowing.innerHTML = "Showing 1 to " + xCounter + " of " + xArray.length + "...";
     x.objectCounter = 10;
 }
 
@@ -57,6 +57,7 @@ function clickMore(x) {
     var xHeadingText = x.objectHeadingText;
     var xElementId = x.objectElementId;
     var xCounter = x.objectCounter;
+    var countBase = xCounter;
     var xArray = x.objectArray;
     var xMore = x.objectMoreButton;
     var xLess = x.objectLessButton;
@@ -67,17 +68,18 @@ function clickMore(x) {
     var lessButton = document.getElementById(xLess);
     if (xCounter + 10 < xArray.length) {
         xCounter += 10;
-        var displayList = xArray.slice(0, xCounter);
+        var displayList = xArray.slice(countBase, xCounter);
         htmlElement.innerHTML = arrayToHTML(displayList);
         moreButton.style.display = "inline-block";
         lessButton.style.display = "inline-block";
     }
     else {
         xCounter = xArray.length
-        htmlElement.innerHTML = arrayToHTML(xArray);
+        var displayList = xArray.slice(countBase, xCounter);
+        htmlElement.innerHTML = arrayToHTML(displayList);
         moreButton.style.display = "none";
     }
-    htmlShowing.innerHTML = "Showing 1 to " + xCounter + " of " + xArray.length + "...";
+    htmlShowing.innerHTML = "Showing " + (countBase + 1) + " to " + xCounter + " of " + xArray.length + "...";
     x.objectCounter = xCounter;
 //    htmlHeading.innerHTML = "<span style='margin-left:20px'>" + xHeadingText + "</span>";
     htmlHeading.innerHTML = "<span>" + xHeadingText + "</span>";
@@ -115,20 +117,20 @@ function clickLess(x) {
         else {
             xCounter = xCounter - (xCounter % 10);
         }
-        var displayList = xArray.slice(0, xCounter);
+        var displayList = xArray.slice((xCounter - 10), xCounter);
         htmlElement.innerHTML = arrayToHTML(displayList);
         moreButton.style.display = "inline-block";
         lessButton.style.display = "inline-block";
-        htmlShowing.innerHTML = "Showing 1 to " + xCounter + " of " + xArray.length + "...";
+        htmlShowing.innerHTML = "Showing " + (xCounter - 10 + 1) + " to " + xCounter + " of " + xArray.length + "...";
     }
     else {
         xCounter -= 10;
-        var displayList = xArray.slice(0, xCounter);
+        var displayList = xArray.slice((xCounter - 10), xCounter);
         htmlElement.innerHTML = arrayToHTML(displayList);
         moreButton.style.display = "inline-block";
         lessButton.style.display = "inline-block";
-        htmlShowing.innerHTML = "Showing 1 to " + xCounter + " of " + xArray.length + "...";
+        htmlShowing.innerHTML = "Showing " + (xCounter - 10 + 1) + " to " + xCounter + " of " + xArray.length + "...";
     }
-    x.objectCounter = xCounter
+    x.objectCounter = xCounter;
 }
 

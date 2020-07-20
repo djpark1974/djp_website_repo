@@ -24,23 +24,30 @@
     var patentsObject = {objectArray: myPatents, objectElementId: "patents", objectCounter: 0, objectMoreButton: "patents_more", objectLessButton: "patents_less", objectShowing: "patents_showing", objectHeading: "patents_heading", objectHeadingText: "Patents"};
     var myConferences = ["Australian Bioinformatics and Computational Biology Society conference (2019), Sydney, Australia - delegate;\n", "Australian Bioinformatics and Computational Biology Society conference (2018), Melbourne, Australia - delegate;\n", "Australasian Mutation Detection Society conference (2016), Alice Springs, Australia \u2013 Platform Presentation;\n", "COMPLEXO conference (2015), Porto, Portugal - session Chair and invited speaker;\n", "Familial Aspects of Cancer meeting (2015), Kingscliff, Australia;\n", "Breast Cancer Association Consortium and COMPLEXO conferences (2014), Leuven, Belgium - session Chair and invited speaker;\n", "Relay For Life symposium (2014), Melbourne, Australia - invited speaker;\n", "Mutation Detection meeting (2014), Whitsundays, Australia - Platform Presentation (presented by colleague, Dr. T. Nguyen-Dumont);\n", "Victorian Life Sciences Computation Initiative symposia (2010-2014), Melbourne, Australia - invited delegate and speaker;\n", "COMPLEXO conference (2013), El Escorial, Spain - session Chair and invited speaker;\n", "American Society for Human Genetics (2013), Boston, U.S.A. - selected Platform Presenter;\n", "PALB2 Interest Group (2013), Boston, U.S.A. - invited speaker;\n", "American Society for Human Genetics (2012), San Francisco, U.S.A. - poster presentations;\n", "Familial Aspects of Cancer meeting (2012), Kingscliff, Australia - Platform Presentation (presented by colleague, Dr. T. Nguyen-Dumont);\n", "Mammographic Density Workshop (2012), Kingscliff, Australia \u2013 panel member;\n", "Department of Anatomy seminar series (2011) - invited speaker;\n", "Life Technologies Sequencing Summit (2011), Khao Lak, Thailand - invited delegate;\n", "Royal College of Pathologists of Australasia technology forum (2011), Melbourne, Australia - invited speaker;\n", "American Society for Human Genetics (2011), Montreal, Canada - poster presentation;\n", "University of Melbourne Cancer Research Domain launch (2010), Parkville - delegate;\n", "Familial Aspects of Cancer meeting (2010), Kingscliff - poster presentation;\n", "Walter and Eliza Hall Institute \u2018Next Generation Sequencing\u2019 Meeting (2010) - poster presentation;\n", "Bio21 Technology Forum (2010), Melbourne - invited speaker;\n", "AGRF Next Generation Sequencing Special Interest Group Meeting (2010) - invited speaker;\n", "Applied Biosystems next generation sequencing data analysis symposium (2010), Melbourne, Australia - invited delegate;\n", "Victorian Breast Cancer Research Consortium Symposium (2009), Melbourne, Australia - delegate;\n", "Illumina Users Group Meeting (2009), Sabah, Malaysia - invited delegate;\n", "17th biennial meeting of the International Society for Sexually Transmitted Diseases Research (2007), Seattle, U.S.A. - poster presentation;\n", "Australian Society for Microbiology annual conference (2007), Adelaide, Australia - delegate;\n", "23rd International Papillomavirus Conference \u0026 Clinical Workshop (2006), Prague, Czech Republic - poster presentation;\n", "Australian government-funded Fresh Innovators program (finalist) (2004) - an intensive presentation skills workshop in Sydney;\n", "Lorne Genome Conference (2004), Lorne, Australia - poster presentation;\n", "International Union Against Tuberculosis and Lung Disease Conference (1999), Madrid, Spain - delegate.\n"];
     var conferencesObject = {objectArray: myConferences, objectElementId: "conferences", objectCounter: 0, objectShowHide: "conferences_toggle", objectHeading: "conferences_heading", objectHeadingText: "Conferences"};
-    var myPhdStudents = ["Student number 1\n", "Student number 2 and degree with status\n", "Student number 3\n", "and 4\n", "and 5\n", "and more...\n", "here is a new one\n", "I\u0027m now adding this\n", "Fred Bloggs finished his Masters degree\n"];
+    var myPhdStudents = ["Joyce Teo - supervisor - completed\n", "Adel Barakat - degree committee - completed\n"];
     var phdStudentsObject = {objectArray: myPhdStudents, objectElementId: "phd_students", objectCounter: 0, objectShowHide: "phds_toggle", objectHeading: "phds_heading", objectHeadingText: "PhD Students"};
-    var myMastersStudents = ["test text\n", "and some more...\n"];
+    var myMastersStudents = ["Jianan Wang - supervisor - completed (H1)\n", "Steven Morgan - supervisor - completed (H1)\n", "Tianyi Lu - supervisor - completed (H1)\n", "Alex Barnett - supervisor - completed (H1)\n", "Emma Darling - supervisor - current\n", "Farjana Akhter - supervisor - current\n", "Peizi Chen - supervisor - current\n", "Maria Orlovskaya - supervisor - current\n", "Sam Haines - supervisor - current\n", "Patrick Hawkins - supervisor - current\n", "Yizhe Mao - supervisor - current\n"];
     var mastersStudentsObject = {objectArray: myMastersStudents, objectElementId: "masters_students", objectCounter: 0, objectShowHide: "masters_toggle", objectHeading: "masters_heading", objectHeadingText: "Masters Students"};
-    var myHonoursStudents = ["placeholder Honours student\n", "and yet one more...\n"];
+    var myHonoursStudents = ["Thomas Green - supervisor - completed (H1)\n", "Dinuka Markalanda - supervisor - completed (H2A)\n", "Mingyi Li - supervisor - completed (H1)\n"];
     var honoursStudentsObject = {objectArray: myHonoursStudents, objectElementId: "honours_students", objectCounter: 0, objectShowHide: "honours_toggle", objectHeading: "honours_heading", objectHeadingText: "Honours Students"};
   </script>
 
+<!-- CREATING A BANNER WITH IMAGE AND TEXT -->
+    <div class="banner-container">
+      <img class="banner-image" src="static/img/djp_portrait_cropped_low_res.jpg">
+      <div class="banner-top-right"></div>
+      <div class="banner-bottom-right"></div>
+      <div class="banner-centered"><span style="font-size: 16pt">A/PROF DANNY PARK<br></span><span style="font-size: 12pt">MOLECULAR BIOLOGIST<br>BIOINFORMATICIAN</span></div>
+    </div>
 
-    <h2>Associate Professor Danny Park - Molecular Biologist and Bioinformatician</h2>
-    <h3>Academic Lead, Melbourne Bioinformatics</h3>
-    <h3>Course Coordinator, MSc(Bioinformatics)</h3>
+    <h3>BIOGRAPHY</h3>
 
-    <img class="centred-and-cropped" width="200"  height="200" src="static/img/djp_portrait_cropped_low_res.jpg" style="float:left;padding:10px"/>
-    <p>I studied Natural Sciences at The University of Cambridge from 1992-1995, before completing my PhD in the Department of Biochemistry. Since then, I have worked across a wide range of molecular biology and bioinformatics projects.</p>
-    <p> Early in my career, while working to characterise some Australian marsupial genes, I developed a suite of methods for the determination of nucleic acid sequences flanking known regions - these allowed the resolution of RNA and DNA sequences that had proven intractible to prior approaches.</p>
-    <br clear="left" />
+    <p class="container-text">I read Natural Sciences at The University of Cambridge from 1992-1995 and subsequently completed my PhD in the Department of Biochemistry. Since then, I have worked across a wide range of molecular biology and bioinformatics projects.
+    <br><br>I based for two years at the Mycobacterium Reference Unit at King's College Hospital, London, co-developing rapid diagnostics for TB. In 2001, I relocated to The University of Melbourne, inventing a suite of methods for determining sequences of DNA or RNA adjacent to known regions - these allowed the characterisation of genes that had proven intractible to prior approaches.
+    <br><br>From 2004-2009, with Genera Biosystems, I developed new technologies for cervical cancer diagnostics, resulting in a suite of international patents and a TGA-certified HPV detection and typing system adopted by major pathology service providers. A key development was the conception of enhanced methods to load PCR products onto solid support beads to facilitate signal detection.
+    <br><br>Since 2009, I have been based with The University of Melbourne in the Department of Pathology and, subsequently, Melbourne Bioinformatics, during which time I developed myriad computing and data science skills. I conceived new approaches to filtering and annotating very large cohort sequencing datasets and created HiPlex and HiPlex2 for efficient targeted sequence-screening - employed across tens of thousands of specimens by large international consortia, saving millions of dollars.
+    <br><br>Today, I am the Academic Lead/Director of Melbourne Bioinformatics, a team of highly skilled bioinformaticians who develop research infrastructure, teach and supervise higher degree students, provide consultation, and engage in collaborative research with our Life Science colleagues across the University and Parkville Precinct. Currently, my research interests include: identifying effective peptide vaccines to harness the immune system against cancer; and predicting protein functional effects of mutations to benefit diagnosis and discovery.
+    </p>
 
 
     <h3>Publications</h3>
@@ -49,7 +56,7 @@
     <button id="articles_less" style="display:none" class="btn" onclick="clickLess(articlesObject)">Less</button>
     <button id="articles_more" style="display:inline-block" class="btn" onclick="clickMore(articlesObject)">More</button>
     <div id="articles_showing" style="display:inline-block" class="comicsans"></div>
-    <div id="journal_articles" style="display:none"></div>
+    <div id="journal_articles" style="display:none" class="text-list"></div>
     <br>
 <!--
     <script type="text/javascript">initLoad(articlesObject);</script>
@@ -57,45 +64,41 @@
 
     <h4 id="chapters_heading" style="display:inline-block">Book Chapters</h4>
     <button id="chapters_toggle" style="display:inline-block" class="btn" onclick="toggle(chaptersObject)">Expand</button>
-    <div id="book_chapters" style="display:none" ></div>
+    <div id="book_chapters" style="display:none" class="text-list"></div>
     <br>
 
     <h4 id="books_heading" style="display:inline-block">Books</h4>
     <button id="books_toggle" style="display:inline-block" class="btn" onclick="toggle(booksObject)">Expand</button>
-    <div id="books" style="display:none" ></div>
+    <div id="books" style="display:none" class="text-list"></div>
     <br>
 
     <h4 id="patents_heading" style="display:inline-block">Patents</h4>
     <button id="patents_less" style="display:none" class="btn" onclick="clickLess(patentsObject)">Less</button>
     <button id="patents_more" style="display:inline-block" class="btn" onclick="clickMore(patentsObject)">More</button>
     <div id="patents_showing" style="display:inline-block" class="comicsans"></div>
-    <div id="patents" style="display:none"></div>
+    <div id="patents" style="display:none" class="text-list"></div>
     <br>
-<!--
-    <h4 id="conferences_heading" style="display:inline;">Conferences</h4>
-    <button id="conferences_toggle" style="display:inline-block" class="comicsans" onclick="toggle(conferencesObject)">Expand</button>
-    <div id="conferences" style="display:none" ></div>
--->
+
     <h4 id="conferences_heading" style="display:inline-block">Conferences</h4>
     <button id="conferences_toggle" style="display:inline-block" class="btn" onclick="toggle(conferencesObject)">Expand</button>
-    <div id="conferences" style="display:none" ></div>
+    <div id="conferences" style="display:none" class="text-list"></div>
     <br>
 
     <h3>Students</h3>
 
     <h4 id="phds_heading" style="display:inline-block">PhD Students</h4>
     <button id="phds_toggle" style="display:inline-block" class="btn" onclick="toggle(phdStudentsObject)">Expand</button>
-    <div id="phd_students" style="display:none" ></div>
+    <div id="phd_students" style="display:none" class="text-list"></div>
     <br>
 
     <h4 id="masters_heading" style="display:inline-block">Masters Students</h4>
     <button id="masters_toggle" style="display:inline-block" class="btn" onclick="toggle(mastersStudentsObject)">Expand</button>
-    <div id="masters_students" style="display:none" ></div>
+    <div id="masters_students" style="display:none" class="text-list"></div>
     <br>
 
     <h4 id="honours_heading" style="display:inline-block">Honours Students</h4>
     <button id="honours_toggle" style="display:inline-block" class="btn" onclick="toggle(honoursStudentsObject)">Expand</button>
-    <div id="honours_students" style="display:none" ></div>
+    <div id="honours_students" style="display:none" class="text-list"></div>
 
   </body>
 </html>
