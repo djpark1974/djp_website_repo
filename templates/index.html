@@ -37,12 +37,17 @@
       <img class="banner-image" src="static/img/djp_portrait_cropped_low_res.jpg">
       <div class="banner-top-right"></div>
       <div class="banner-bottom-right"></div>
-      <div class="banner-centered"><span style="font-size: 16pt">ASSOCIATE PROFESSOR DANNY PARK<br></span><span style="font-size: 12pt">MOLECULAR BIOLOGIST<br>BIOINFORMATICIAN</span></div>
+      <div class="banner-centered"><span style="font-size: 16pt">A/PROF DANNY PARK<br></span><span style="font-size: 12pt">MOLECULAR BIOLOGIST<br>BIOINFORMATICIAN</span></div>
     </div>
 
     <h3>BIOGRAPHY</h3>
 
-    <p class="container-text">I studied Natural Sciences at The University of Cambridge from 1992-1995, before completing my PhD in the Department of Biochemistry. Since then, I have worked across a wide range of molecular biology and bioinformatics projects.<br><br>Early in my career, while working to characterise some Australian marsupial genes, I developed a suite of methods for the determination of nucleic acid sequences flanking known regions - these allowed the resolution of RNA and DNA sequences that had proven intractible to prior approaches.</p>
+    <p class="container-text">I read Natural Sciences at The University of Cambridge from 1992-1995 and subsequently completed my PhD in the Department of Biochemistry. Since then, I have worked across a wide range of molecular biology and bioinformatics projects.
+    <br><br>I based for two years at the Mycobacterium Reference Unit at King's College Hospital, London, co-developing rapid diagnostics for TB. In 2001, I relocated to The University of Melbourne, inventing a suite of methods for determining sequences of DNA or RNA adjacent to known regions - these allowed the characterisation of genes that had proven intractible to prior approaches.
+    <br><br>From 2004-2009, with Genera Biosystems, I developed new technologies for cervical cancer diagnostics, resulting in a suite of international patents and a TGA-certified HPV detection and typing system adopted by major pathology service providers. A key development was the conception of enhanced methods to load PCR products onto solid support beads to facilitate signal detection.
+    <br><br>Since 2009, I have been based with The University of Melbourne in the Department of Pathology and, subsequently, Melbourne Bioinformatics, during which time I developed myriad computing and data science skills. I conceived new approaches to filtering and annotating very large cohort sequencing datasets and created HiPlex and HiPlex2 for efficient targeted sequence-screening - employed across tens of thousands of specimens by large international consortia, saving millions of dollars.
+    <br><br>Today, I am the Academic Lead/Director of Melbourne Bioinformatics, a team of highly skilled bioinformaticians who develop research infrastructure, teach and supervise higher degree students, provide consultation, and engage in collaborative research with our Life Science colleagues across the University and Parkville Precinct. Currently, my research interests include: identifying effective peptide vaccines to harness the immune system against cancer; and predicting protein functional effects of mutations to benefit diagnosis and discovery.
+    </p>
 
 
     <h3>Publications</h3>
@@ -51,7 +56,7 @@
     <button id="articles_less" style="display:none" class="btn" onclick="clickLess(articlesObject)">Less</button>
     <button id="articles_more" style="display:inline-block" class="btn" onclick="clickMore(articlesObject)">More</button>
     <div id="articles_showing" style="display:inline-block" class="comicsans"></div>
-    <div id="journal_articles" style="display:none"></div>
+    <div id="journal_articles" style="display:none" class="text-list"></div>
     <br>
 <!--
     <script type="text/javascript">initLoad(articlesObject);</script>
@@ -59,45 +64,41 @@
 
     <h4 id="chapters_heading" style="display:inline-block">Book Chapters</h4>
     <button id="chapters_toggle" style="display:inline-block" class="btn" onclick="toggle(chaptersObject)">Expand</button>
-    <div id="book_chapters" style="display:none" ></div>
+    <div id="book_chapters" style="display:none" class="text-list"></div>
     <br>
 
     <h4 id="books_heading" style="display:inline-block">Books</h4>
     <button id="books_toggle" style="display:inline-block" class="btn" onclick="toggle(booksObject)">Expand</button>
-    <div id="books" style="display:none" ></div>
+    <div id="books" style="display:none" class="text-list"></div>
     <br>
 
     <h4 id="patents_heading" style="display:inline-block">Patents</h4>
     <button id="patents_less" style="display:none" class="btn" onclick="clickLess(patentsObject)">Less</button>
     <button id="patents_more" style="display:inline-block" class="btn" onclick="clickMore(patentsObject)">More</button>
     <div id="patents_showing" style="display:inline-block" class="comicsans"></div>
-    <div id="patents" style="display:none"></div>
+    <div id="patents" style="display:none" class="text-list"></div>
     <br>
-<!--
-    <h4 id="conferences_heading" style="display:inline;">Conferences</h4>
-    <button id="conferences_toggle" style="display:inline-block" class="comicsans" onclick="toggle(conferencesObject)">Expand</button>
-    <div id="conferences" style="display:none" ></div>
--->
+
     <h4 id="conferences_heading" style="display:inline-block">Conferences</h4>
     <button id="conferences_toggle" style="display:inline-block" class="btn" onclick="toggle(conferencesObject)">Expand</button>
-    <div id="conferences" style="display:none" ></div>
+    <div id="conferences" style="display:none" class="text-list"></div>
     <br>
 
     <h3>Students</h3>
 
     <h4 id="phds_heading" style="display:inline-block">PhD Students</h4>
     <button id="phds_toggle" style="display:inline-block" class="btn" onclick="toggle(phdStudentsObject)">Expand</button>
-    <div id="phd_students" style="display:none" ></div>
+    <div id="phd_students" style="display:none" class="text-list"></div>
     <br>
 
     <h4 id="masters_heading" style="display:inline-block">Masters Students</h4>
     <button id="masters_toggle" style="display:inline-block" class="btn" onclick="toggle(mastersStudentsObject)">Expand</button>
-    <div id="masters_students" style="display:none" ></div>
+    <div id="masters_students" style="display:none" class="text-list"></div>
     <br>
 
     <h4 id="honours_heading" style="display:inline-block">Honours Students</h4>
     <button id="honours_toggle" style="display:inline-block" class="btn" onclick="toggle(honoursStudentsObject)">Expand</button>
-    <div id="honours_students" style="display:none" ></div>
+    <div id="honours_students" style="display:none" class="text-list"></div>
 
   </body>
 </html>
