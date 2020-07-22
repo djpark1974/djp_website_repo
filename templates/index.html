@@ -23,7 +23,8 @@
     var myPatents = {{ patents|tojson }};
     var patentsObject = {objectArray: myPatents, objectElementId: "patents", objectCounter: 0, objectMoreButton: "patents_more", objectLessButton: "patents_less", objectShowing: "patents_showing", objectHeading: "patents_heading", objectHeadingText: "Patents"};
     var myConferences = {{ conferences|tojson }};
-    var conferencesObject = {objectArray: myConferences, objectElementId: "conferences", objectCounter: 0, objectShowHide: "conferences_toggle", objectHeading: "conferences_heading", objectHeadingText: "Conferences"};
+    var conferencesObject = {objectArray: myConferences, objectElementId: "conferences", objectCounter: 0, objectMoreButton: "conferences_more", objectLessButton: "conferences_less", objectShowing: "conferences_showing", objectHeading: "conferences_heading", objectHeadingText: "Conferences"};
+//var conferencesObject = {objectArray: myConferences, objectElementId: "conferences", objectCounter: 0, objectShowHide: "conferences_toggle", objectHeading: "conferences_heading", objectHeadingText: "Conferences"};
     var myPhdStudents = {{ phd_students|tojson }};
     var phdStudentsObject = {objectArray: myPhdStudents, objectElementId: "phd_students", objectCounter: 0, objectShowHide: "phds_toggle", objectHeading: "phds_heading", objectHeadingText: "PhD Students"};
     var myMastersStudents = {{ masters_students|tojson }};
@@ -55,7 +56,7 @@
     <h4 id="articles_heading" style="display:inline-block">Journal Articles</h4>
     <button id="articles_less" style="display:none" class="btn" onclick="clickLess(articlesObject)">Less</button>
     <button id="articles_more" style="display:inline-block" class="btn" onclick="clickMore(articlesObject)">More</button>
-    <div id="articles_showing" style="display:inline-block" class="comicsans"></div>
+    <div id="articles_showing" style="display:inline-block"></div>
     <div id="journal_articles" style="display:none" class="text-list"></div>
     <br>
 <!--
@@ -75,14 +76,22 @@
     <h4 id="patents_heading" style="display:inline-block">Patents</h4>
     <button id="patents_less" style="display:none" class="btn" onclick="clickLess(patentsObject)">Less</button>
     <button id="patents_more" style="display:inline-block" class="btn" onclick="clickMore(patentsObject)">More</button>
-    <div id="patents_showing" style="display:inline-block" class="comicsans"></div>
+    <div id="patents_showing" style="display:inline-block"></div>
     <div id="patents" style="display:none" class="text-list"></div>
     <br>
 
     <h4 id="conferences_heading" style="display:inline-block">Conferences</h4>
+    <button id="conferences_less" style="display:none" class="btn" onclick="clickLess(conferencesObject)">Less</button>
+    <button id="conferences_more" style="display:inline-block" class="btn" onclick="clickMore(conferencesObject)">More</button>
+    <div id="conferences_showing" style="display:inline-block"></div>
+    <div id="conferences" style="display:none" class="text-list"></div>
+    <br>
+<!--
+    <h4 id="conferences_heading" style="display:inline-block">Conferences</h4>
     <button id="conferences_toggle" style="display:inline-block" class="btn" onclick="toggle(conferencesObject)">Expand</button>
     <div id="conferences" style="display:none" class="text-list"></div>
     <br>
+-->
 
     <h3>Students</h3>
 

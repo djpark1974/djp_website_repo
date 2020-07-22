@@ -22,8 +22,8 @@ button.btn{
     font-family: arial, verdana, sans-serif, trebuchet-ms;
     font-size:12px;
     font-weight: bold;
-    margin: 10px 20px 10px;     /* top, left and right, bottom */
-    padding: 5px;
+    margin: 2px 20px 2px;     /* top, left and right, bottom */
+    padding: 2px;
     text-transform: uppercase;
 /*    text-decoration: none;*/
     background: white;
