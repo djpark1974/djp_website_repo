@@ -27,10 +27,12 @@
 //var conferencesObject = {objectArray: myConferences, objectElementId: "conferences", objectCounter: 0, objectShowHide: "conferences_toggle", objectHeading: "conferences_heading", objectHeadingText: "Conferences"};
     var myPhdStudents = ["Joyce Teo - supervisor - completed\n", "Adel Barakat - degree committee - completed\n"];
     var phdStudentsObject = {objectArray: myPhdStudents, objectElementId: "phd_students", objectCounter: 0, objectShowHide: "phds_toggle", objectHeading: "phds_heading", objectHeadingText: "PhD Students"};
-    var myMastersStudents = ["Jianan Wang - supervisor - completed (H1)\n", "Steven Morgan - supervisor - completed (H1)\n", "Tianyi Lu - supervisor - completed (H1)\n", "Alex Barnett - supervisor - completed (H1)\n", "Emma Darling - supervisor - current\n", "Farjana Akhter - supervisor - current\n", "Peizi Chen - supervisor - current\n", "Maria Orlovskaya - supervisor - current\n", "Sam Haines - supervisor - current\n", "Patrick Hawkins - supervisor - current\n", "Yizhe Mao - supervisor - current\n"];
+    var myMastersStudents = ["Jianan Wang - supervisor - completed (H1)\n", "Steven Morgan - supervisor - completed (H1)\n", "Tianyi Lu - supervisor - completed (H1)\n", "Alex Barnett - supervisor - completed (H1)\n", "Emma Darling - supervisor - commenced 2019 s1\n", "Farjana Akhter - supervisor - commenced 2019 s2\n", "Peizi Chen - supervisor - commenced 2019 s2\n", "Maria Orlovskaya - supervisor - commenced 2020 s1\n", "Sam Haines - supervisor - commencing 2020 s2\n", "Patrick Hawkins - supervisor - commencing 2020 s2\n", "Yizhe Mao - supervisor - commencing 2020 s2\n", "Dafei Lin - co-supervisor (A/Prof Bernie Pope supervisor) - commencing 2020 s2\n", "Lucy Yuan - co-supervisor (A/Prof Bernie Pope supervisor) - commencing 2020 s2\n", "Jiayu Wang - co-supervisor (A/Prof Bernie Pope supervisor) - commencing 2020 s2\n"];
     var mastersStudentsObject = {objectArray: myMastersStudents, objectElementId: "masters_students", objectCounter: 0, objectShowHide: "masters_toggle", objectHeading: "masters_heading", objectHeadingText: "Masters Students"};
     var myHonoursStudents = ["Thomas Green - supervisor - completed (H1)\n", "Dinuka Markalanda - supervisor - completed (H2A)\n", "Mingyi Li - supervisor - completed (H1)\n"];
     var honoursStudentsObject = {objectArray: myHonoursStudents, objectElementId: "honours_students", objectCounter: 0, objectShowHide: "honours_toggle", objectHeading: "honours_heading", objectHeadingText: "Honours Students"};
+    var myInterns = ["Edmund Lau - VLSCI intern 2016\n", "Edmund Lau - UROP student 2016\n", "Roger Li - UROP student 2014\n", "Luke Shillabeer - VLSCI intern 2013-2014\n", "Sori Kang - VLSCI intern 2012-2013\n"];
+    var internsObject = {objectArray: myInterns, objectElementId: "interns", objectCounter: 0, objectShowHide: "interns_toggle", objectHeading: "interns_heading", objectHeadingText: "Interns"};
   </script>
 
 <!-- CREATING A BANNER WITH IMAGE AND TEXT -->
@@ -108,6 +110,11 @@
     <h4 id="honours_heading" style="display:inline-block">Honours Students</h4>
     <button id="honours_toggle" style="display:inline-block" class="btn" onclick="toggle(honoursStudentsObject)">Expand</button>
     <div id="honours_students" style="display:none" class="text-list"></div>
+    <br>
+
+    <h4 id="interns_heading" style="display:inline-block">Interns</h4>
+    <button id="interns_toggle" style="display:inline-block" class="btn" onclick="toggle(internsObject)">Expand</button>
+    <div id="interns" style="display:none" class="text-list"></div>
 
   </body>
 </html>

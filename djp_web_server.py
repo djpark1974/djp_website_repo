@@ -37,7 +37,8 @@ def djp_site():
     phd_students = get_file_lines("static/text/phd_students.txt")
     masters_students = get_file_lines("static/text/masters_students.txt")
     honours_students = get_file_lines("static/text/honours_students.txt")
-    return render_template('index.html', articles=articles, chapters=chapters, books=books, patents=patents, conferences=conferences, phd_students=phd_students, masters_students=masters_students, honours_students=honours_students)
+    interns = get_file_lines("static/text/interns.txt")
+    return render_template('index.html', articles=articles, chapters=chapters, books=books, patents=patents, conferences=conferences, phd_students=phd_students, masters_students=masters_students, honours_students=honours_students, interns=interns)
 
 
 if __name__ == '__main__':

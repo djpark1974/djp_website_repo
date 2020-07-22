@@ -31,6 +31,8 @@
     var mastersStudentsObject = {objectArray: myMastersStudents, objectElementId: "masters_students", objectCounter: 0, objectShowHide: "masters_toggle", objectHeading: "masters_heading", objectHeadingText: "Masters Students"};
     var myHonoursStudents = {{ honours_students|tojson }};
     var honoursStudentsObject = {objectArray: myHonoursStudents, objectElementId: "honours_students", objectCounter: 0, objectShowHide: "honours_toggle", objectHeading: "honours_heading", objectHeadingText: "Honours Students"};
+    var myInterns = {{ interns|tojson }};
+    var internsObject = {objectArray: myInterns, objectElementId: "interns", objectCounter: 0, objectShowHide: "interns_toggle", objectHeading: "interns_heading", objectHeadingText: "Interns"};
   </script>
 
 <!-- CREATING A BANNER WITH IMAGE AND TEXT -->
@@ -108,6 +110,11 @@
     <h4 id="honours_heading" style="display:inline-block">Honours Students</h4>
     <button id="honours_toggle" style="display:inline-block" class="btn" onclick="toggle(honoursStudentsObject)">Expand</button>
     <div id="honours_students" style="display:none" class="text-list"></div>
+    <br>
+
+    <h4 id="interns_heading" style="display:inline-block">Interns</h4>
+    <button id="interns_toggle" style="display:inline-block" class="btn" onclick="toggle(internsObject)">Expand</button>
+    <div id="interns" style="display:none" class="text-list"></div>
 
   </body>
 </html>
