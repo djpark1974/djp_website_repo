@@ -1,11 +1,14 @@
 mkdir flask-workshop
 python3 -m venv flaskenv
 . flaskenv/bin/activate
-sudo -H pip3 install Flask
+python3 -m ensurepip --default-pip
+python3 -m pip install --upgrade pip
+sudo -H pip3 install Flask          # this stopped working no pip module - did above steps
 sudo -H pip3 install Frozen-Flask
 sudo -H pip3 install Flask-FlatPages
 
 python djp_web_server.py        # this stopped working and required sudo -H installs above...
+
 python djp_web_server.py build      # make a static build folder
 
 GitHub Pages
@@ -13,4 +16,23 @@ djpark1974.github.io        # repo name to make https://djpark1974.github.io - m
 include index.html and static files
 in repo, under settings, select Github Pages to be used
 
+Updating site
+Make edits and push changes to remote repo 
+git add <modified_file>
+git commit -m "commit_message"
+git push
+(Passphrase for key 'Users/djp/.ssh/id_rsa' s......5)
+
+cd /Users/djp/python/djp_website_repo/
+. flaskenv/bin/activate
+python djp_web_server.py build          # this stopped working and had to do installs lines 4-8
+(Generates content under build directory)
+git add index.html
+git add static/
+git commit -m "updated build"
+git push
+
+
+Navigate to GitHub djpark1974.github.io
+Replace contents index.html and altered component files under /build/static
 
