@@ -16,6 +16,8 @@
   <script>
     var myArticles = {{ articles|tojson }};
     var articlesObject = {objectArray: myArticles, objectElementId: "journal_articles", objectCounter: 0, objectMoreButton: "articles_more", objectLessButton: "articles_less", objectShowing: "articles_showing", objectHeading: "articles_heading", objectHeadingText: "Journal Articles"};
+    var hiPlexArticles = {{ hiplex_articles|tojson }};
+    var hiplexarticlesObject = {objectArray: hiPlexArticles, objectElementId: "hiplex_journal_articles", objectCounter: 0, objectMoreButton: "hiplex_articles_more", objectLessButton: "hiplex_articles_less", objectShowing: "hiplex_articles_showing", objectHeading: "hiplex_articles_heading", objectHeadingText: "Hi-Plex Journal Articles"};
     var myChapters = {{ chapters|tojson }};
     var chaptersObject = {objectArray: myChapters, objectElementId: "book_chapters", objectCounter: 0, objectShowHide: "chapters_toggle", objectHeading: "chapters_heading", objectHeadingText: "Book Chapters"};
     var myBooks = {{ books|tojson }};
@@ -64,6 +66,12 @@
 <!--
     <script type="text/javascript">initLoad(articlesObject);</script>
 -->
+    <h4 id="hiplex_articles_heading" style="display:inline-block">Hi-Plex Journal Articles</h4>
+    <button id="hiplex_articles_less" style="display:none" class="btn" onclick="clickLess(hiplexarticlesObject)">Less</button>
+    <button id="hiplex_articles_more" style="display:inline-block" class="btn" onclick="clickMore(hiplexarticlesObject)">More</button>
+    <div id="hiplex_articles_showing" style="display:inline-block"></div>
+    <div id="hiplex_journal_articles" style="display:none" class="text-list"></div>
+    <br>
 
     <h4 id="chapters_heading" style="display:inline-block">Book Chapters</h4>
     <button id="chapters_toggle" style="display:inline-block" class="btn" onclick="toggle(chaptersObject)">Expand</button>

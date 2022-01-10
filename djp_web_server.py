@@ -30,6 +30,7 @@ def get_file_lines(filepath):
 @app.route('/')
 def djp_site():
     articles = get_file_lines("static/text/articles.txt")
+    hiplex_articles = get_file_lines("static/text/hi-plex_articles.txt")
     chapters = get_file_lines("static/text/chapters.txt")
     books = get_file_lines("static/text/books.txt")
     patents = get_file_lines("static/text/patents.txt")
@@ -38,7 +39,7 @@ def djp_site():
     masters_students = get_file_lines("static/text/masters_students.txt")
     honours_students = get_file_lines("static/text/honours_students.txt")
     interns = get_file_lines("static/text/interns.txt")
-    return render_template('index.html', articles=articles, chapters=chapters, books=books, patents=patents, conferences=conferences, phd_students=phd_students, masters_students=masters_students, honours_students=honours_students, interns=interns)
+    return render_template('index.html', articles=articles, hiplex_articles=hiplex_articles, chapters=chapters, books=books, patents=patents, conferences=conferences, phd_students=phd_students, masters_students=masters_students, honours_students=honours_students, interns=interns)
 
 
 if __name__ == '__main__':
