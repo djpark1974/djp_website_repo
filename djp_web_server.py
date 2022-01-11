@@ -35,11 +35,12 @@ def djp_site():
     books = get_file_lines("static/text/books.txt")
     patents = get_file_lines("static/text/patents.txt")
     conferences = get_file_lines("static/text/conferences.txt")
+    grants = get_file_lines("static/text/grants_ci.txt")
     phd_students = get_file_lines("static/text/phd_students.txt")
     masters_students = get_file_lines("static/text/masters_students.txt")
     honours_students = get_file_lines("static/text/honours_students.txt")
     interns = get_file_lines("static/text/interns.txt")
-    return render_template('index.html', articles=articles, hiplex_articles=hiplex_articles, chapters=chapters, books=books, patents=patents, conferences=conferences, phd_students=phd_students, masters_students=masters_students, honours_students=honours_students, interns=interns)
+    return render_template('index.html', articles=articles, hiplex_articles=hiplex_articles, chapters=chapters, books=books, patents=patents, conferences=conferences, grants=grants, phd_students=phd_students, masters_students=masters_students, honours_students=honours_students, interns=interns)
 
 
 if __name__ == '__main__':

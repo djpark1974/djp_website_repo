@@ -26,6 +26,10 @@
     var patentsObject = {objectArray: myPatents, objectElementId: "patents", objectCounter: 0, objectMoreButton: "patents_more", objectLessButton: "patents_less", objectShowing: "patents_showing", objectHeading: "patents_heading", objectHeadingText: "Patents"};
     var myConferences = {{ conferences|tojson }};
     var conferencesObject = {objectArray: myConferences, objectElementId: "conferences", objectCounter: 0, objectMoreButton: "conferences_more", objectLessButton: "conferences_less", objectShowing: "conferences_showing", objectHeading: "conferences_heading", objectHeadingText: "Conferences"};
+
+    var myGrants = {{ grants|tojson }};
+    var grantsObject = {objectArray: myGrants, objectElementId: "grants", objectCounter: 0, objectMoreButton: "grants_more", objectLessButton: "grants_less", objectShowing: "grants_showing", objectHeading: "grants_heading", objectHeadingText: "Grants"};
+
 //var conferencesObject = {objectArray: myConferences, objectElementId: "conferences", objectCounter: 0, objectShowHide: "conferences_toggle", objectHeading: "conferences_heading", objectHeadingText: "Conferences"};
     var myPhdStudents = {{ phd_students|tojson }};
     var phdStudentsObject = {objectArray: myPhdStudents, objectElementId: "phd_students", objectCounter: 0, objectShowHide: "phds_toggle", objectHeading: "phds_heading", objectHeadingText: "PhD Students"};
@@ -95,6 +99,13 @@
     <button id="conferences_more" style="display:inline-block" class="btn" onclick="clickMore(conferencesObject)">More</button>
     <div id="conferences_showing" style="display:inline-block"></div>
     <div id="conferences" style="display:none" class="text-list"></div>
+    <br>
+
+    <h4 id="grants_heading" style="display:inline-block">Grants</h4>
+    <button id="grants_less" style="display:none" class="btn" onclick="clickLess(grantsObject)">Less</button>
+    <button id="grants_more" style="display:inline-block" class="btn" onclick="clickMore(grantsObject)">More</button>
+    <div id="grants_showing" style="display:inline-block"></div>
+    <div id="grants" style="display:none" class="text-list"></div>
     <br>
 <!--
     <h4 id="conferences_heading" style="display:inline-block">Conferences</h4>
