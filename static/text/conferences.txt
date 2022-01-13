@@ -1,17 +1,26 @@
+Australian Bioinformatics and Computational Biology Society conference (2021) - selected talk (presented by BJ Pope) - Varlap: automated interrogation of DNA variants in their sequencing alignment context for detailed and scalable quality assessment;
+Bioinformatics Community Conference (2020) - selected talk (presented by M Franklin) - Challenges in implementing Janis: A generator for CWL and WDL pipelines;
+Bioinformatics Community Conference (2020) - selected workshop (presented by M Franklin) - Produce a portable germline variant-calling pipeline in CWL and WDL using Janis and GATK;
+Walter and Eliza Hall Institute Bioinformatics Seminar Series (2020), Melbourne, Australia - seminar (presented by M Franklin) - Building reproducible and portable pipelines using Janis;
+Victorian Cancer Bioinformatics Society (2019), Melbourne, Australia - presentation (by M Franklin) - Developing portable variant calling pipelines with Janis;
+Australian Bioinformatics and Computational Biology Society conference (2019), Sydney, Australia - selected talk (presented by M Franklin) - Janis: a Python framework for portable pipelines;
 Australian Bioinformatics and Computational Biology Society conference (2019), Sydney, Australia - delegate;
+Australasian Genomic Technologies Association conference (2019), Melbourne, Australia - poster (presented by C-H Jung) - Revisiting the frequency of Klinefelter syndrome using DNA methylation profiles from public datasets;
 Australian Bioinformatics and Computational Biology Society conference (2018), Melbourne, Australia - delegate;
+CGA (Collaborative Group of the Americas on Inherited Colorectal Cancer) Annual Meeting (2017), Orlando, USA - selected talk (presented by D Buchanan) - The role of RNF43, NTHL1, POLE and POLD1 in serrated polyposis;
+Familial Aspects of Cancer meeting (2017), Kingscliff, Australia - poster (presented by M Lorans) - Germline mutations in RNF43, NTHL1, POLE and POLD1 in serrated polyposis;
 Australasian Mutation Detection Society conference (2016), Alice Springs, Australia – Platform Presentation;
 COMPLEXO conference (2015), Porto, Portugal - session Chair and invited speaker;
 Familial Aspects of Cancer meeting (2015), Kingscliff, Australia;
 Breast Cancer Association Consortium and COMPLEXO conferences (2014), Leuven, Belgium - session Chair and invited speaker;
 Relay For Life symposium (2014), Melbourne, Australia - invited speaker;
-Mutation Detection meeting (2014), Whitsundays, Australia - Platform Presentation (presented by colleague, Dr. T. Nguyen-Dumont);
+Mutation Detection meeting (2014), Whitsundays, Australia - Platform Presentation (presented by T Nguyen-Dumont);
 Victorian Life Sciences Computation Initiative symposia (2010-2014), Melbourne, Australia - invited delegate and speaker;
 COMPLEXO conference (2013), El Escorial, Spain - session Chair and invited speaker;
-American Society for Human Genetics (2013), Boston, U.S.A. - selected Platform Presenter;
-PALB2 Interest Group (2013), Boston, U.S.A. - invited speaker;
-American Society for Human Genetics (2012), San Francisco, U.S.A. - poster presentations;
-Familial Aspects of Cancer meeting (2012), Kingscliff, Australia - Platform Presentation (presented by colleague, Dr. T. Nguyen-Dumont);
+American Society for Human Genetics (2013), Boston, USA - selected Platform Presenter;
+PALB2 Interest Group (2013), Boston, USA - invited speaker;
+American Society for Human Genetics (2012), San Francisco, USA - poster presentations;
+Familial Aspects of Cancer meeting (2012), Kingscliff, Australia - Platform Presentation (presented by T Nguyen-Dumont);
 Mammographic Density Workshop (2012), Kingscliff, Australia – panel member;
 Department of Anatomy seminar series (2011) - invited speaker;
 Life Technologies Sequencing Summit (2011), Khao Lak, Thailand - invited delegate;
@@ -30,4 +39,4 @@ Australian Society for Microbiology annual conference (2007), Adelaide, Australi
 23rd International Papillomavirus Conference & Clinical Workshop (2006), Prague, Czech Republic - poster presentation;
 Australian government-funded Fresh Innovators program (finalist) (2004) - an intensive presentation skills workshop in Sydney;
 Lorne Genome Conference (2004), Lorne, Australia - poster presentation;
-International Union Against Tuberculosis and Lung Disease Conference (1999), Madrid, Spain - delegate.
+International Union Against Tuberculosis and Lung Disease Conference (1999), Madrid, Spain - delegate;
