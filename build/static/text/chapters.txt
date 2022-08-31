@@ -1,3 +1,0 @@
-Pope BJ, Hammet F, Nguyen-Dumont T and Park DJ (2018) Hi-Plex for Simple, Accurate, and Cost-Effective Amplicon-based Targeted DNA Sequencing. In Next Generation Sequencing (Springer), pp.53-70, ISBN 978-1-4939-7512-9.
-Park DJ (2010). Lariat-dependent Nested PCR for flanking sequence determination. In PCR Protocols, 3rd Edition (Springer/Humana Press), pp.43-56, ISBN 978-1-60761-943-7.
-Park DJ (2010). Enhanced Solid Phase PCR for increased loading of amplicon onto solid support. In PCR Protocols, 3rd Edition (Springer/Humana Press), pp.257-264, ISBN 978-1-60761-943-7.
