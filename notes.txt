@@ -13,8 +13,15 @@ conda install Flask
 conda install Frozen-Flask
 conda install Flask-FlatPages
 
+NOTE - problems with conda
+(base) /Users/djp/Desktop/Python/djp_website_repo Sir,your wish?..>conda activate conda_website                                      14:15-18/07/23
+(conda_website) /Users/djp/Desktop/Python/djp_website_repo Sir,your wish?..>python djp_web_server.py build  
+/Users/djp/miniconda3/envs/conda_website/lib/python3.9/site-packages/flask_frozen/__init__.py:199: MissingURLGeneratorWarning: Nothing frozen for endpoints static. Did you forget a URL generator?
+  return set(page.url for page in self.freeze_yield())
+
+
 python djp_web_server.py        # this stopped working and required sudo -H installs above...
-http://127.0.0.1:5000/
+http://127.0.0.1:5000/  # does not work with zsh - MacBook Pro - should look at alternatives
 
 python djp_web_server.py build      # make a static build folder
 
@@ -23,16 +30,25 @@ djpark1974.github.io        # repo name to make https://djpark1974.github.io - m
 include index.html and static files
 in repo, under settings, select Github Pages to be used
 
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
 Updating site
+NOTE - if token has changed with password update - do 'git pull origin master' before attempting - this should give prompt for token when push-ing
 Make edits and push changes to remote repo 
 git add <modified_file>
 git commit -m "commit_message"
 git push
-(Passphrase for key 'Users/djp/.ssh/id_rsa' s......5)
+(Passphrase for key 'Users/djp/.ssh/id_rsa' s......5)   (Now use token at prompt given two factor authentication)
 
 cd /Users/djp/python/djp_website_repo/
 . flaskenv/bin/activate
-python djp_web_server.py build          # this stopped working and had to do installs lines 4-8
+sudo -H pip3 install Flask
+sudo -H pip3 install Frozen-Flask
+sudo -H pip3 install Flask-FlatPages
+
+
+
+python djp_web_server.py build          # this stopped working and had to redo sudo pip installs of Flask, Frozen-Flask and Flask-FlatPages
 (Generates content under build directory)
 git add index.html
 git add static/
