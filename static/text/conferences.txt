@@ -1,4 +1,4 @@
-SNO/ASCO CNS Metastases Conference (2024) USA - The multi-omic landscape of somatic variation across a pan-cancer cohort of brain metastases
+SNO/ASCO CNS Metastases Conference (2024) Denver, USA - poster presentation author - The multi-omic landscape of somatic variation across a pan-cancer cohort of brain metastases
 ASHG (2023) USA – poster presentation author - Prevalence of germline pathogenic variants in cancer predisposition genes in a population-based study of renal cell carcinoma
 FAC (2023) Kingscliff, Australia - poster presentation author - Prevalence of germline pathogenic variants in cancer predisposition genes in a population-based study of renal cell carcinoma
 ABACBS (2023) Brisbane, Australia – poster presentation author - Migrating pipelines to Nextflow using Janis
