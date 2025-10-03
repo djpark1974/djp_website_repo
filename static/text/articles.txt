@@ -1,3 +1,4 @@
+Park DJ and Pope BJ (2025) Immune suppression and somatic mutation in endometriosis – an opportunity for personalized immunotherapy. Under review.
 Tanner S et al. (2025) Prenatal Environmental Determinants of Aromatase Brain-Promoter Methylation in Cord Blood: Chemical, Airborne, Pharmacological, and Nutritional Factors. Submitted for review.
 Jakobsdottir GM et al. (2025) The Pan Prostate Cancer Group - an International Consortium Analysing Multiomic Data for Clinical Discovery. Submitted for review.
 Merid MW et al. (2025) A systematic review and meta-analysis on gene-environment interaction effects on the associations of vitamin D and sun exposure with multiple sclerosis risk. Mult Scler Relat Disord 102:106634 doi:10.1016/j.msard.2025.106634 <button class="btn" onclick="window.location.href='https://doi.org/10.1016/j.msard.2025.106634';">GO</button>
