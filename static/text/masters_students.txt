@@ -17,10 +17,10 @@ Pengan Zhang - supervisor - completed (H2B) 2023
 Chuyi Wang - supervisor - completed (H1) 2024
 Xin Wang - supervisor - completed (H2B) 2024
 Jessica Sun - supervisor - completed (H1) 2025
-Andrew Harrison - supervisor - commenced 2024s2
-Alex Thomas - supervisor - commenced 2024s2
-Raymond Zhao - supervisor - commenced 2024s2
-Tzer Ray Su - supervisor - commenced 2024s2
+Andrew Harrison - supervisor - completed (H1) 2025s2
+Alex Thomas - supervisor - completed (TBD) 2025s2
+Raymond Zhao - supervisor - completed (TBD) 2025s2
+Tzer Ray Su - supervisor - completed (TBD) 2025s2
 Yi-Cheng Yang - supervisor - commenced 2025s2
 Zixuan Wang - supervisor - commenced 2025s2
 Aarya Thapa - supervisor - commenced 2025s2

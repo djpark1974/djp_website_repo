@@ -1,6 +1,20 @@
+Merid MW et al. (2025) DNA methylation mediates the associations of Mediterranean diet scores with MS onset-risk: results from the Ausimmune case-control study. Under review.
+Eisner A et al. (2025) DNA Methylation Mediates the Multiple Sclerosis Onset Risk Associated with HHV-6 DNA Positivity. Under review.
+Tanner S et al. (2025) Prenatal DEHP plastic chemical exposure increases the risk of early life autism and ADHD symptoms through epigenetic programming. Under review.
 Park DJ and Pope BJ (2025) Immune suppression and somatic mutation in endometriosis – an opportunity for personalized immunotherapy. Under review.
 Tanner S et al. (2025) Prenatal Environmental Determinants of Aromatase Brain-Promoter Methylation in Cord Blood: Chemical, Airborne, Pharmacological, and Nutritional Factors. Submitted for review.
-Jakobsdottir GM et al. (2025) The Pan Prostate Cancer Group - an International Consortium Analysing Multiomic Data for Clinical Discovery. Submitted for review.
+PPCG (2025) Distinct Mitochondrial-Nuclear Genomic Interactions Differentiate Poor Clinical Outcomes and Ancestral Disparities in Prostate Cancer. Under review.
+PPCG (2025) The clonal dynamics driving patterns of metastatic spread in prostate cancer. Under review.
+PPCG (2025) Integrated signatures reveal dominant mutational processes in prostate cancer. Under review.
+Jakobsdottir GM et al. (2025) The Pan Prostate Cancer Group - an International Consortium Analysing Multiomic Data for Clinical Discovery. Under review.
+PPCG (2025) The Pan Prostate Cancer Group: an International Consortium Analysing Multiomic Data for Clinical Discovery. Under review.
+PPCG (2025) Recurrent mechanisms of biallelic epigenetic inactivation reveal new putative tumour suppressor genes in prostate cancer. Under review.
+PPCG (2025) Causes of evolutionary divergence in prostate cancer. Under review.
+PPCG (2025) The molecular heterogeneity and clinical impact of genomic driver alterations in prostate cancer. Under review.
+PPCG (2025) The Landscape of Prostate Tumour Methylation. Under review.
+PPCG (2025) Tracing the onset and evolution of prostate cancer. Under review.
+PPCG (2025) Hypoxia Spurs Evolution of Aggressive Prostate Cancer. Under review.
+PPCG (2025) Reconstruction of Bacterial Genomes from Cancer Patient Whole Genome DNA Sequencing Data. Under review.
 Merid MW et al. (2025) A systematic review and meta-analysis on gene-environment interaction effects on the associations of vitamin D and sun exposure with multiple sclerosis risk. Mult Scler Relat Disord 102:106634 doi:10.1016/j.msard.2025.106634 <button class="btn" onclick="window.location.href='https://doi.org/10.1016/j.msard.2025.106634';">GO</button>
 Park DJ (2025) A unifying model for multiple sclerosis. Clinical and Experimental Medicine 25:133 doi:10.1007/s10238-025-01666-3 <button class="btn" onclick="window.location.href='https://rdcu.be/ekawO';">GO</button>
 Yamaguchi TN et al. (2025) The germline and somatic origins of prostate cancer heterogeneity. Cancer Discovery doi:10.1158/2159-8290.CD-23-0882 <button class="btn" onclick="window.location.href='https://doi.org/10.1158/2159-8290.CD-23-0882';">GO</button>
