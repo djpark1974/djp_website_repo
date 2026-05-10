@@ -1,7 +1,6 @@
 Jacobs A et al. (2026) A mosaic of genomic architectures underpins parasitism loss in a jawless vertebrate. In preparation.
 Merid MW et al. (2026) DNA methylation mediates the associations of Mediterranean diet scores with MS onset-risk: results from the Ausimmune case-control study. Under review.
 Park DJ and Pope BJ (2026) Immune suppression and somatic mutation in endometriosis – an opportunity for personalized immunotherapy. Under review.
-Tanner S et al. (2026) Prenatal Environmental Determinants of Aromatase Brain-Promoter Methylation in Cord Blood: Chemical, Airborne, Pharmacological, and Nutritional Factors. Submitted for review.
 PPCG (2026) Distinct Mitochondrial-Nuclear Genomic Interactions Differentiate Poor Clinical Outcomes and Ancestral Disparities in Prostate Cancer. Under review.
 PPCG (2026) The clonal dynamics driving patterns of metastatic spread in prostate cancer. Under review.
 Jakobsdottir GM et al. (2025) The Pan Prostate Cancer Group - an International Consortium Analysing Multiomic Data for Clinical Discovery. Under review.
@@ -9,6 +8,7 @@ PPCG (2026) Causes of evolutionary divergence in prostate cancer. Under review.
 PPCG (2026) The molecular heterogeneity and clinical impact of genomic driver alterations in prostate cancer. Under review.
 PPCG (2026) The Landscape of Prostate Tumour Methylation. Under review.
 PPCG (2026) Tracing the onset and evolution of prostate cancer. Under review.
+Tanner S et al. (2026) Prenatal Environmental Determinants of Aromatase Brain-Promoter Methylation in Cord Blood: Chemical, Airborne, Pharmacological, and Nutritional Factors. Environmental Epigenetics - accepted for publication.
 Eisner A et al. (2026) DNA Methylation Mediates the Multiple Sclerosis Onset Risk Associated with HHV-6 DNA Positivity. Environmental Epigenetics - accepted for publication.
 PPCG (2026) Reconstruction of Bacterial Genomes from Cancer Patient Whole Genome DNA Sequencing Data. NPJ Biofilms and Microbiomes - accepted for publication.
 PPCG (2026) The Pan Prostate Cancer Group: an International Consortium Analysing Multiomic Data for Clinical Discovery. Scientific Data - accepted for publication.
