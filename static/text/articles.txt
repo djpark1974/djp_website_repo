@@ -1,5 +1,4 @@
 Jacobs A et al. (2026) A mosaic of genomic architectures underpins parasitism loss in a jawless vertebrate. Under review.
-Merid MW et al. (2026) DNA methylation mediates the associations of Mediterranean diet scores with MS onset-risk: results from the Ausimmune case-control study. Under review.
 Park DJ and Pope BJ (2026) Immune suppression and somatic mutation in endometriosis – an opportunity for personalized immunotherapy. Under review.
 PPCG (2026) Distinct mitochondrial-nuclear genomic interactions differentiate poor clinical outcomes and ancestral disparities in prostate cancer. Under review.
 PPCG (2026) The clonal dynamics driving patterns of metastatic spread in prostate cancer. Under review.
@@ -8,6 +7,7 @@ PPCG (2026) Causes of evolutionary divergence in prostate cancer. Under review.
 PPCG (2026) The molecular heterogeneity and clinical impact of genomic driver alterations in prostate cancer. Under review.
 PPCG (2026) The landscape of prostate tumour methylation. Under review.
 PPCG (2026) Tracing the onset and evolution of prostate cancer. Under review.
+Merid MW et al. (2026) DNA methylation mediates the associations of Mediterranean diet scores with MS onset-risk: results from the Ausimmune case-control study. Multiple Sclerosis Journal - accepted for publication.
 Tanner S et al. (2026) Prenatal environmental determinants of aromatase brain-promoter methylation in cord blood: chemical, airborne, pharmacological, and nutritional factors. Environmental Epigenetics - accepted for publication.
 PPCG (2026) Reconstruction of bacterial genomes from cancer patient whole genome DNA sequencing data. NPJ Biofilms and Microbiomes - accepted for publication.
 PPCG (2026) The Pan Prostate Cancer Group: an international consortium analysing multiomic data for clinical discovery. Scientific Data - accepted for publication.
