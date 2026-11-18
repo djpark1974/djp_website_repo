@@ -1,3 +1,8 @@
+Cold Spring Harbor Asia Conference on Iron, Reactive Oxygen Species & Ferroptosis in Life, Death & Disease (2026) Awaji, Japan - presentation author - Forward genetics screen in Caenorhabditis elegans reveals novel ferroptosis regulators
+Australian Bioinformatics and Computational Biology Society conference (2026) Melbourne, Australia - poster presentation author - Gurita: a flexible, expressive command line data analytics and plotting tool
+Australian Bioinformatics and Computational Biology Society conference (2026) Melbourne, Australia - poster presentation author - Varlap: bringing alignment-based variant quality control to scale
+Australian Bioinformatics and Computational Biology Society conference (2026) Melbourne, Australia - poster presentation author - Mitochondrial genome as a matrix: a novel mitochondrial genome representation and its applications
+Australian Bioinformatics and Computational Biology Society conference (2026) Melbourne, Australia - poster presentation author - Accounting for tissue-specific sources of variation in endometrial omics data
 19th International Neurotoxicology Association conference (2025) Sommaroy, Norway - presentation author (presented by Sam Tanner) - Prenatal DEHP plastic chemical exposure increases the likelihood of early life autism and ADHD symptoms through epigenetic programming
 SNO/ASCO CNS Metastases Conference (2024) Denver, USA - poster presentation author (presented by Grace Hall) - The multi-omic landscape of somatic variation across a pan-cancer cohort of brain metastases
 ASHG (2023) USA – poster presentation author - Prevalence of germline pathogenic variants in cancer predisposition genes in a population-based study of renal cell carcinoma
