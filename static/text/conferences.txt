@@ -5,10 +5,10 @@ Australian Bioinformatics and Computational Biology Society conference (2026) Me
 Australian Bioinformatics and Computational Biology Society conference (2026) Melbourne, Australia - poster presentation author - Accounting for tissue-specific sources of variation in endometrial omics data
 19th International Neurotoxicology Association conference (2025) Sommaroy, Norway - presentation author (presented by Sam Tanner) - Prenatal DEHP plastic chemical exposure increases the likelihood of early life autism and ADHD symptoms through epigenetic programming
 SNO/ASCO CNS Metastases Conference (2024) Denver, USA - poster presentation author (presented by Grace Hall) - The multi-omic landscape of somatic variation across a pan-cancer cohort of brain metastases
-ASHG (2023) USA – poster presentation author - Prevalence of germline pathogenic variants in cancer predisposition genes in a population-based study of renal cell carcinoma
-FAC (2023) Kingscliff, Australia - poster presentation author - Prevalence of germline pathogenic variants in cancer predisposition genes in a population-based study of renal cell carcinoma
-ABACBS (2023) Brisbane, Australia – poster presentation author - Migrating pipelines to Nextflow using Janis
-ABACBS (2021a) virtual (Hobart), Australia – poster presentation author - Hatch: convenient, flexible and expressive data analytics and plotting on the command line
+American Society for Human Genetics conference (2023) USA – poster presentation author - Prevalence of germline pathogenic variants in cancer predisposition genes in a population-based study of renal cell carcinoma
+Familial Aspects of Cancer meeting (2023) Kingscliff, Australia - poster presentation author - Prevalence of germline pathogenic variants in cancer predisposition genes in a population-based study of renal cell carcinoma
+Australian Bioinformatics and Computational Biology Society conference (2023) Brisbane, Australia – poster presentation author - Migrating pipelines to Nextflow using Janis
+Australian Bioinformatics and Computational Biology Society conference (2021a) virtual (Hobart), Australia – poster presentation author - Hatch: convenient, flexible and expressive data analytics and plotting on the command line
 Australian Bioinformatics and Computational Biology Society conference (2021b) virtual (Hobart, Australia) - selected talk (presented by BJ Pope) - Varlap: automated interrogation of DNA variants in their sequencing alignment context for detailed and scalable quality assessment
 Bioinformatics Open Source Conference and Bioinformatics Community Conference (2020a) virtual (international) - selected talk (presented by M Franklin) - Challenges in implementing Janis: A generator for CWL and WDL pipelines
 Bioinformatics Open Source Conference and Bioinformatics Community Conference (2020b) virtual (international) - selected workshop (presented by M Franklin) - Produce a portable germline variant-calling pipeline in CWL and WDL using Janis and GATK
@@ -31,9 +31,9 @@ Relay For Life symposium (2014) Melbourne, Australia - invited speaker
 Mutation Detection meeting (2014) Whitsundays, Australia - Platform Presentation (presented by T Nguyen-Dumont)
 Victorian Life Sciences Computation Initiative symposia (2010-2014) Melbourne, Australia - invited delegate and speaker
 COMPLEXO conference (2013) El Escorial, Spain - session Chair and invited speaker
-American Society for Human Genetics (2013) Boston, USA - selected Platform Presenter
+American Society for Human Genetics conference (2013) Boston, USA - selected Platform Presenter
 PALB2 Interest Group (2013) Boston, USA - invited speaker
-American Society for Human Genetics (2012) San Francisco, USA - poster presentations
+American Society for Human Genetics conference (2012) San Francisco, USA - poster presentations
 Familial Aspects of Cancer meeting (2012) Kingscliff, Australia - Platform Presentation (presented by T Nguyen-Dumont)
 Mammographic Density Workshop (2012) Kingscliff, Australia – panel member
 Department of Anatomy seminar series (2011) - invited speaker
